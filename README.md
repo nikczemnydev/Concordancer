@@ -1,0 +1,1 @@
+First of my bigger projects - a Concordancer. In Computational Linguistics (which is my programming background) concordance is a listing of each occurence of a word or pattern in a corpus (for instance - a book) with the words (in CL - contexts) surrounding it.

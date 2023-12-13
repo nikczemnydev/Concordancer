@@ -21,6 +21,22 @@ public class Concordancer {
             return;
         }
 
-    }
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a search phrase please (type .stop to quit)");
+        String phrase = input.nextLine();
+        /*
+        Placeholder for print statements, looped so it can be run multiple times without restarting
+         while (!phrase.equals(".stop")) {
+             List<Context> contexts = findContexts(tokens, phrase);
+             System.out.println("how many contexts found");
+             System.out.println("left contexts");
+             System.out.println("right contexts");
+             System.out.println("bidirectional contexts");
+        }
+        */
 
+        System.out.println("Please enter a search phrase (.stop to end the program):");
+        phrase = input.nextLine();
+    }
+    input.close();
 }

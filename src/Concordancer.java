@@ -24,19 +24,46 @@ public class Concordancer {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a search phrase please (type .stop to quit)");
         String phrase = input.nextLine();
-        /*
-        Placeholder for print statements, looped so it can be run multiple times without restarting
+
          while (!phrase.equals(".stop")) {
              List<Context> contexts = findContexts(tokens, phrase);
-             System.out.println("how many contexts found");
-             System.out.println("left contexts");
-             System.out.println("right contexts");
-             System.out.println("bidirectional contexts");
-        }
-        */
+
+             System.out.println(contexts.size() + "individual contexts found in total");
+
+             System.out.println("<<<<<<<<<< Left contexts <<<<<");
+             for (Context context : contexts) {
+                 System.out.println(context.left);
+             }
+
+             System.out.println(">>>>> Right contexts >>>>>>>>>>");
+             for (Context context : contexts) {
+                 System.out.println(context.right);
+             }
+
+             System.out.println("<<<<<<< Bidirectional contexts >>>>>>>");
+             for (Context context : contexts) {
+                 System.out.println(context.getBidirectional());
+             }
+
+         }
 
         System.out.println("Please enter a search phrase (.stop to end the program):");
         phrase = input.nextLine();
     }
-    input.close();
+}
+
+static class Context {
+    String left;
+    String right;
+    String phrase;
+
+    public Context(String left, String right, String phrase) {
+        this.left = left;
+        this.right = right;
+        this.phrase = phrase;
+    }
+
+    public String getBidirectional() {
+        return left + phrase + right;
+    }
 }

@@ -7,4 +7,4 @@ Java - Concordancer - in Computational Linguistics (which is my programming back
 4. Rename your book file to book.txt and put it directly in your C:\\ directory. (I will eventually make version that takes the directory as command-line argument, right now it's hardcoded cause it's easier to test.)
 5. Open CMD and navigate to wherever you put Concordancer.java file.
 6. Compile the program using "javac Concordancer.java" command.
-7. Run it using "java Concordancer.java" command.
+7. Run it using "java Concordancer" command.

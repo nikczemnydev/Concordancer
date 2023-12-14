@@ -8,3 +8,5 @@ Java - Concordancer - in Computational Linguistics (which is my programming back
 5. Open CMD and navigate to wherever you put Concordancer.java file.
 6. Compile the program using "javac Concordancer.java" command.
 7. Run it using "java Concordancer" command.
+
+![image](https://github.com/nikczemnydev/Concordancer/assets/136376818/dc3c2b06-8ecf-474a-b50c-19571717198f)

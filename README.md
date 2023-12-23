@@ -1,4 +1,4 @@
-Java - Concordancer - in Computational Linguistics (which is my programming background) concordance is a listing of each occurence of a word or pattern in a corpus (for instance - a book) with the words (in CL - contexts) surrounding it.
+Java - Concordancer: This Computational Linguistics java project is a tool for creating concordances from a given corpus (such as a book). A concordance is a collection of all the instances of a word or a pattern in the corpus, along with the words (or contexts) that surround them.
 
 # INSTRUCTIONS FOR WINDOWS #
 1. Download and install JDK. (link: https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
